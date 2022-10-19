@@ -1,0 +1,253 @@
+/*<meta />*/
+
+:root
+{
+	--Brand1: #076685;
+	--Brand2: #CDE0E7;
+	--Black: #000000;
+	--Dark: #45494c;
+	--Medium: #b9bec1;
+}
+
+body
+{
+	color: var(--Black);
+	font-family: Arial, Avenir, Myriad;
+	font-size: 11pt;
+	line-height: 13pt;
+	margin: 8px;
+}
+
+/* Backmatter */
+
+MadCap|indexProxy
+{
+	border-top: none;
+}
+
+p.Index1
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+p.Index2
+{
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+p.IndexHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	background-image: url('../Images/Backmatter-Heading-Background.png');
+	background-repeat: no-repeat;
+	border-bottom-color: var(--Medium);
+}
+
+/* Content */
+
+li
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+li p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: inherit;
+	widows: 3;
+	orphans: 3;
+}
+
+p.image
+{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+p.table-text
+{
+	font-size: 11pt;
+}
+
+/* Frontmatter */
+
+MadCap|tocProxy
+{
+	border-top: none;
+}
+
+p.created-using-flare
+{
+	color: var(--Dark);
+	font-weight: bold;
+	margin-top: 18px;
+	font-size: 9pt;
+	line-height: 15pt;
+	text-transform: uppercase;
+}
+
+p.title
+{
+	font-size: 55pt;
+	line-height: 65pt;
+	margin-top: 30px;
+	mc-hyphenate: never;
+}
+
+p.title-page-footer
+{
+	color: var(--Dark);
+	font-size: 9pt;
+	frame-break-before: always;
+	line-height: 15pt;
+	margin-top: 30px;
+}
+
+p.title-page-url
+{
+	color: var(--Dark);
+	font-size: 9pt;
+	line-height: 15pt;
+}
+
+p.TOC1
+{
+	color: var(--Dark);
+	font-size: 19pt;
+	font-weight: normal;
+	line-height: 21pt;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	page-break-after: avoid;
+}
+
+p.TOC2
+{
+	color: var(--Dark);
+	font-size: 15pt;
+	font-weight: normal;
+	line-height: 21pt;
+	margin-bottom: 13px;
+	margin-left: .5in;
+	margin-top: 13px;
+}
+
+p.TOC3
+{
+	color: var(--Dark);
+	font-size: 13pt;
+	line-height: 21pt;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-left: 1in;
+	margin-top: 10px;
+}
+
+/* Headings */
+
+h1
+{
+	color: var(--Brand1);
+	font-size: 25pt;
+	font-weight: bold;
+	line-height: 27pt;
+	margin-bottom: 20px;
+}
+
+h2
+{
+	font-size: 21pt;
+	font-weight: normal;
+	line-height: 23pt;
+	margin-bottom: 18px;
+	margin-top: 40px;
+	page-break-before: always;
+}
+
+h3
+{
+	font-size: 15pt;
+	font-weight: bold;
+	line-height: 17pt;
+	margin-bottom: 15px;
+	margin-top: 40px;
+}
+
+/* Links */
+
+a
+{
+	color: var(--Brand1);
+}
+
+a:link
+{
+	color: var(--Brand1);
+}
+
+a:visited
+{
+	color: var(--Brand1);
+}
+
+/* Lists */
+
+dd,
+dd p,
+dt,
+dt p,
+li,
+li p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+dl,
+ol,
+ul
+{
+	letter-spacing: .25px;
+	line-height: 20pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Page layout */
+
+p.frame-footer-page-number
+{
+	color: var(--Medium);
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: right;
+}
+
+p.frame-footer-text
+{
+	color: var(--Medium);
+	font-size: 11pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
